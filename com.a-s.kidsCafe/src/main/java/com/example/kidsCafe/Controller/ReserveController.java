@@ -35,25 +35,25 @@ public class ReserveController {
 	}
 	
 	//個人情報入力ホームに移動
-	@RequestMapping(value="inform_writeForm", method=RequestMethod.POST)
+	@RequestMapping(value="informWriteForm", method=RequestMethod.GET)
 	public String inform_writeForm(){
 		
-		logger.info("inform_writeForm.jspに移動始め");
+		logger.info("informWriteForm.jspに移動始め");
 		
-		logger.info("inform_writeForm.jspに移動終了");
+		logger.info("informWriteForm.jspに移動終了");
 		
-		return "facility/inform_writeForm";
+		return "facility/informWriteForm";
 	}
 	
 	//個人情報確認ホームに移動
-	@RequestMapping(value="inform_checkForm",method=RequestMethod.POST)
+	@RequestMapping(value="informCheckForm",method=RequestMethod.GET)
 	public String inform_checkForm(){
 			
-		logger.info("inform_checkForm.jspに移動始め");
+		logger.info("informCheckForm.jspに移動始め");
 		
-		logger.info("inform_checkForm.jspに移動終了");
+		logger.info("informCheckForm.jspに移動終了");
 		
-		return "facility/inform_checkForm";
+		return "facility/informCheckForm";
 	}
 	
 	//予約番号発行ページに移動

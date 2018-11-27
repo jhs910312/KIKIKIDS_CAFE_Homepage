@@ -5,9 +5,151 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script type="text/javascript" src="<c:url value="/resources/js/jquery-3.2.1.js"/>"></script>
+<script type="text/javascript" src="<c:url value="/resources/dayReserve/js/dayReserve.js"/>"></script>
 <title>dayReserve</title>
 </head>
 <body>
 	<h1>dayReserve</h1>
+	
+	<div class="table">
+     <table border="3" align="left">
+        <tr>
+         <th>days/hours</th><!--id로 위치파악  -->
+         <th>day1</th>
+         <th>day2</th>
+         <th>day3</th>
+         <th>day4</th>
+         <th>day5</th>
+         <th>day6</th>
+         <th>day7</th>
+         <th>day8</th>                         
+        </tr>
+        <tr>
+        　　　　<th>10時</th>
+         <td>open</td>
+         <td>open</td>
+         <td>open</td>
+         <td>open</td>
+         <td>open</td>
+         <td>open</td>
+         <td>open</td>
+         <td>open</td>   
+        </tr>
+        <tr>
+        　　　　<th>11時</th>
+         <td>open</td>
+         <td>open</td>
+         <td>open</td>
+         <td>open</td>
+         <td>open</td>
+         <td>open</td>
+         <td>open</td>
+         <td>open</td>   
+        </tr>
+        <tr>
+        　　　　<th>12時</th>
+         <td>open</td>
+         <td>open</td>
+         <td>open</td>
+         <td>open</td>
+         <td>open</td>
+         <td>open</td>
+         <td>open</td>
+         <td>open</td>   
+        </tr>
+        <tr>
+        　　　　<th>13時</th>
+         <td>open</td>
+         <td>open</td>
+         <td>open</td>
+         <td>open</td>
+         <td>open</td>
+         <td>open</td>
+         <td>open</td>
+         <td>open</td>   
+        </tr>
+        <tr>
+        　　　　<th>14時</th>
+         <td>open</td>
+         <td>open</td>
+         <td>open</td>
+         <td>open</td>
+         <td>open</td>
+         <td>open</td>
+         <td>open</td>
+         <td>open</td>   
+        </tr>
+        <tr>
+        　　　　<th>15時</th>
+         <td>open</td>
+         <td>open</td>
+         <td>open</td>
+         <td>open</td>
+         <td>open</td>
+         <td>open</td>
+         <td>open</td>
+         <td>open</td>   
+        </tr>
+        <tr>
+        　　　　<th>16時</th>
+         <td>open</td>
+         <td>open</td>
+         <td>open</td>
+         <td>open</td>
+         <td>open</td>
+         <td>open</td>
+         <td>open</td>
+         <td>open</td>   
+        </tr>
+        <tr>
+        　　　　<th>17時</th>
+         <td>open</td>
+         <td>open</td>
+         <td>open</td>
+         <td>open</td>
+         <td>open</td>
+         <td>open</td>
+         <td>open</td>
+         <td>open</td>   
+        </tr>
+        <tr>
+        　　　　<th>18時</th>
+         <td>open</td>
+         <td>open</td>
+         <td>open</td>
+         <td>open</td>
+         <td>open</td>
+         <td>open</td>
+         <td>open</td>
+         <td>open</td>   
+        </tr>
+        <tr>
+        　　　　<th>19時</th>
+         <td>open</td>
+         <td>open</td>
+         <td>open</td>
+         <td>open</td>
+         <td>open</td>
+         <td>open</td>
+         <td>open</td>
+         <td>open</td>   
+        </tr>
+        <tr>
+        　　　　<th>20時</th>
+         <td>open</td>
+         <td>open</td>
+         <td>open</td>
+         <td>open</td>
+         <td>open</td>
+         <td>open</td>
+         <td>open</td>
+         <td>open</td>   
+        </tr>
+        
+      </table>
+     </div>
+     
+     <Input type="button" id="susumu" value="進む" style="background: #e0505c; border: none; color: white; font-size:17px; font-weight:bold; padding: 10px 20px; margin: 0 5px;">
 </body>
 </html>
