@@ -67,7 +67,7 @@ public class MobileController {
 	
 	@ResponseBody
 	@RequestMapping(value = "insertReserve", method = RequestMethod.POST)
-	public String indiviConfirm(ReserveVO reserve) {
+	public void indiviConfirm(ReserveVO reserve) {
 		
 		
 		System.out.println(reserve);
@@ -113,12 +113,12 @@ public class MobileController {
 			
 			String resnumResult = gson.toJson(map);
 			
-			return resnumResult;
+			//return resnumResult;
 		}
 		
 		
 		
-		return "fail";
+		//return "fail";
 		
 	}
 	
@@ -138,7 +138,8 @@ public class MobileController {
 		map.put("resNum", resNum);
 		
 		String resnumResult = gson.toJson(map);
-			
+		System.out.println("ResNumString :"+resnumResult );	
+		
 		return resnumResult;
 		
 			
