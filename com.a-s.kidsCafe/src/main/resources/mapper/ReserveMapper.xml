@@ -12,15 +12,19 @@ from timeSchedule
 where resdate > sysdate
 </select>
 <insert id="indiviConfirm" parameterType="Reserve">
-<selectKey keyProperty="resNum" resultType="int" order="BEFORE">
+<!-- <selectKey keyProperty="resNum" resultType="int" order="BEFORE">
 	select resnumseq.nextval from dual
-</selectKey>
+</selectKey> -->
 insert all 
 into RESERVEMAIN values(#{resNum},#{date},#{resTime},#{useTime})
 into RESERVESUB(resnum,resname,mail,phone) values(#{resNum},#{resName},#{mail},#{phone})
 into RESERVEINFO VALUES(#{resNum},#{resAdult},#{resChild})
 select * from dual
 </insert>
+
+<select id="GetResNum" resultType="int">
+	select resnumseq.nextval from dual
+</select>
 
 <insert id="timeScheduleInput" parameterType="ReserveSpace">
 insert into timeschedule(dummynum,resDate,resTime)
@@ -35,10 +39,6 @@ select
 	 and (r1.resnum = r3.resnum) 
 	 and (r1.resnum = #{resNum});
 
-</select>
-
-<select id="GetResNum" resultType="int">
-	select resnumseq.nextval from dual
 </select>
 
 
