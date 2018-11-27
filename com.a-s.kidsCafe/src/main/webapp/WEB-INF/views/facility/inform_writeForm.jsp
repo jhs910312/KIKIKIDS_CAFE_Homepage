@@ -5,9 +5,9 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>dayReserve</title>
+<title>inform_writeForm</title>
 </head>
 <body>
-	<h1>dayReserve</h1>
+	<h1>inform_writeForm</h1>
 </body>
 </html>
