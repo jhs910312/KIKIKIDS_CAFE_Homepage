@@ -191,7 +191,7 @@ window.onload= function(){
          <td><i class="fa fa-remove"></td>
          <td><i class="fa fa-remove"></td>    
         </tr>
-        <tr>
+        <!-- <tr>
         　　　　<th>20時</th>
          <td><i class="fa fa-check"></i></td>
          <td><i class="fa fa-check"></i></td>
@@ -201,7 +201,7 @@ window.onload= function(){
          <td><i class="fa fa-check"></i></td>
          <td><i class="fa fa-check"></i></td>
          <td><i class="fa fa-check"></i></td>   
-        </tr>
+        </tr> -->
         
       </table>
       </div>
