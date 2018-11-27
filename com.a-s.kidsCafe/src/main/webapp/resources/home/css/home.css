@@ -1,0 +1,154 @@
+@CHARSET "UTF-8";
+
+/*
+* HomeCSS 部分
+*/
+
+header{
+    background-color:#fff;
+    margin-top: 0;
+}
+
+
+.menulist li{
+    padding-left:100px;
+    margin-top: 50px;
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    width: 80px;
+    height: 50px;
+    color: #222;
+}
+/*↓リンクの下線はなし、マウスオンで下線あり、リンクの文字、踏んだあとの文字色*/
+.menulist a {
+    text-decoration: none;
+}
+.menulist a:hover {
+    text-decoration: underline;
+}
+.menulist a:link{
+    color: #222;
+}
+.menulist a:visited{
+    color: #222;
+}
+
+h1{
+    color:#222;
+    font-size: 260%;
+    padding-left:180px;
+    font-family: 'Yu Mincho',YuMincho,serif;
+    margin-bottom: 0;
+}
+
+#content1{
+    color: #555;
+    text-align: center;
+    font-size: 150%;
+    font-family: 'Yu Mincho',YuMincho,serif;
+    margin-bottom: 0;
+}
+
+/*画蔵スクロール*/
+#banner {
+    border: 3px solid #CCCCCC;
+    overflow: hidden;
+    width:1325px;
+    /* margin-bottom: 5px; */
+    height:300px;
+}
+#banner ul {
+    list-style: none;
+    padding-left:0;
+    width: 5300px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+#banner ul li {
+    float: left;
+    width: 1325px;
+}
+#banner ul li img {
+    vertical-align: bottom;
+}
+
+/*.container4{
+	background-color: #fff;
+}*/
+#container4 p{
+　　　　font-size:　190%;
+　　　　vertical-align:　middel;
+　　　　color:　#555;
+     padding: 10px;
+     font-family: 'Yu Mincho',YuMincho,serif;
+}
+
+.shisetuA{
+    width: 85%;
+    border: none;
+    background-color: #fff;
+    margin-bottom: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*フォーム↓*/
+.box1{
+    font-weight: bold;
+    color: #333;
+    background: #FFF;
+    border: solid 2px #222;
+    /*border-radius: 10px; 角の丸み*/
+    width: 550px;
+    /*height: 690px;*/
+    margin: auto
+}
+.box1 p{
+    text-align: center;
+    margin:auto;
+    font-size: 20px;
+}
+
+#testform{
+    width: 460px;
+    margin: auto
+}
+
+.item{
+   overflow: hidden;
+   margin-bottom: 20px;
+   display: flex;
+}
+
+.label{
+    float: left;
+    margin-right: 20px;
+	width: 135px;
+	border-left: solid 3px #e0505d;
+	padding-left: 10px;
+}
+
+
+/*fotter↓*/
+fotter{
+    background-color: #555;
+}
+
+.menulist2　li{
+    margin: 0;
+    padding: 3px;
+    list-style: none;
+}
+.menulist2 a {
+    text-decoration: none;
+}
+.menulist2 a:hover {
+    text-decoration: underline;
+}
+.menulist2 a:link{
+    color: #fff;
+}
+.menulist2 a:visited{
+    color: #fff;
+}
