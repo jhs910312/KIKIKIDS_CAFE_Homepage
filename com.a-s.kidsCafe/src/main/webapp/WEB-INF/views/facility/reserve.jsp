@@ -72,63 +72,9 @@
    </div>
   </div>
 </section>
-
-
-   <div class="box1">
-     <br>
-     <p>Kiki Kids ご予約フォーム</p>
-     <br>
-       <form id="reserveform" action="dayReserve" method="POST">
-
-        <div class="item">
-            <label class="label">お名前</label>
-            <input id="name" type="text" name="name" placeholder="全角">
-        </div>
-
-        <div class="item">
-            <label class="label">ふりがな</label>
-            <input id="name" type="text" name="name" placeholder="ひらがな" >
-        </div>
-
-        <div class="item">
-	        <label class="label">電話番号</label>
-	        <input id="tel" type="tel" name="fone" placeholder="123-4567-8900" >
-        </div>
-
-        <div class="item">
-	        <label class="label">メールアドレス</label>
-            <input id="email" type="email" name="email" placeholder="aaa">
-        </div>
-
-	    <div class="item" >
-		    <label class="label" >日付</label>
-		    <input id="today" type="date" name="today" >
-	    </div>
-
-        <div class="item" >
-		    <label class="label" >時間</label>
-		    <input id="number" type="number" name="number" min="1" max="2" >
-	    </div>
-
-	    <div class="item" >
-		    <label class="label" >大人</label>
-	        <input type="number" name="number" value="1" min="1" max="20">
-	    </div>
-
-	    <div class="item" >
-		    <label class="label">子人</label>
-	        <input type="number" name="number" value="1" min="1" max="20">
-	    </div>
-
-          <div class="btn-area" style="text-align: center;">
-              <input type="button" id="transmission" style="background: #e0505c; border: none; color: white; font-size:17px; font-weight:bold; padding: 10px 20px; margin: 0 5px;" value="送信">
-		      <input type="reset" id="reset" style="background: #aaa; border: none; color: white; font-size:17px; font-weight:bold; padding: 10px 20px; margin: 0 5px;" value="リセット">
-          </div>
-          <br>
-        </form>
-   </div>
-
-   <br><br>
+	
+	<input type="button" id="susumu" value="進む" style="background: #e0505c; border: none; color: white; font-size:17px; font-weight:bold; padding: 10px 20px; margin: 0 5px;">
+	 
 </body>
 </html>
 

@@ -35,7 +35,7 @@ public class ReserveController {
 	}
 	
 	//個人情報入力ホームに移動
-	@RequestMapping(value="inform_writeForm", method=RequestMethod.POST)
+	@RequestMapping(value="inform_writeForm", method=RequestMethod.GET)
 	public String inform_writeForm(){
 		
 		logger.info("inform_writeForm.jspに移動始め");
@@ -46,7 +46,7 @@ public class ReserveController {
 	}
 	
 	//個人情報確認ホームに移動
-	@RequestMapping(value="inform_checkForm",method=RequestMethod.POST)
+	@RequestMapping(value="inform_checkForm",method=RequestMethod.GET)
 	public String inform_checkForm(){
 			
 		logger.info("inform_checkForm.jspに移動始め");
