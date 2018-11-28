@@ -7,6 +7,8 @@
 <head>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script type="text/javascript" src="<c:url value="/resources/js/jquery-3.2.1.js"/>"></script>
+<script type="text/javascript" src="<c:url value="/resources/dayReserve/js/dayReserve.js"/>"></script>
 
 <title>dayReserve</title>
 <style>
@@ -202,12 +204,11 @@ window.onload= function(){
          <td><i class="fa fa-check"></i></td>
          <td><i class="fa fa-check"></i></td>
          <td><i class="fa fa-check"></i></td>   
-        </tr>
-        
+        </tr>        
       </table>
       </div>
-      
-       <button>次へ</button>
-     
+      	<Input type="button" id="susumu" value="進む" style="background: #e0505c; border: none; color: white; font-size:17px; font-weight:bold; padding: 10px 20px; margin: 0 5px;">
+            
     </body>
+
 </html>
