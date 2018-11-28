@@ -420,8 +420,7 @@ window.onload= function(){
       </table>
       </div>
       
-       <button>次へ</button>
-     
+            
     </body>
 
 </html>
