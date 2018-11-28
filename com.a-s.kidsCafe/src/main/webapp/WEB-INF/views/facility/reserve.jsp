@@ -10,7 +10,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script type="text/javascript" src="<c:url value="/resources/reserve/js/reserve.js"/>"></script>
 <link rel="stylesheet" type="text/css" href=" <c:url value="/resources/reserve/css/reserve.css" />">
-<title>KikiKids予約ページ</title>
+<title>KikiKids予約</title>
 <!--meta name="viewport" スマホ-->
 </head>
 <body>
