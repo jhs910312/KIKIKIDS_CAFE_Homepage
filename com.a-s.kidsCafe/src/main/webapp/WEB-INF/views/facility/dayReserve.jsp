@@ -75,9 +75,9 @@ var resList = [
 	  ]
 	  $(document).ready(
 			  function resnumtb() {
-				  for (var i = 0; i <= 9; i++) {
+				  for (var i = 0; i <= 7; i++) {
 					   var a = i.toString();
-					  for (var y = 1; y <= 8; y++) {
+					  for (var y = 0; y <= 9; y++) {
 						  var b = y.toString();
 						  if(i+y<10){
 							  var resbtn = document.getElementById("btn"+a+b).setAttribute("style","background: cyan;");
@@ -109,7 +109,7 @@ var resList = [
      <table id="tblData" border="3" align="left">
         <tr>
          <th></th><!-- id로 위치파악  -->
-         <th>day1</th>
+         <th>${ReserveSpaceVO.resDate}</th>
          <th>day2</th>
          <th>day3</th>
          <th>day4</th>
@@ -121,113 +121,113 @@ var resList = [
         <tr>
         
         　　　　<th>10時</th>
-         <td><button id="btn01" data-res="" data-date="" data-time=""></td>
-         <td><button id="btn02" data-res="" data-date="" data-time=""></td>
-         <td><button id="btn03" data-res="" data-date="" data-time=""></td>
-         <td><button id="btn04" data-res="" data-date="" data-time=""></td>
-         <td><button id="btn05" data-res="" data-date="" data-time=""></td>
-         <td><button id="btn06" data-res="" data-date="" data-time=""></td>
-         <td><button id="btn07" data-res="" data-date="" data-time=""></td>
-         <td><button id="btn08" data-res="" data-date="" data-time=""></td>    
+         <td><button id="btn00" data-res="" data-date="" data-time=""></td>
+         <td><button id="btn10" data-res="" data-date="" data-time=""></td>
+         <td><button id="btn20" data-res="" data-date="" data-time=""></td>
+         <td><button id="btn30" data-res="" data-date="" data-time=""></td>
+         <td><button id="btn40" data-res="" data-date="" data-time=""></td>
+         <td><button id="btn50" data-res="" data-date="" data-time=""></td>
+         <td><button id="btn60" data-res="" data-date="" data-time=""></td>
+         <td><button id="btn70" data-res="" data-date="" data-time=""></td>    
         </tr>
         <tr>
         　　　　<th>11時</th>
+         <td><button id="btn01" data-res="" data-date="" data-time=""></td>
          <td><button id="btn11" data-res="" data-date="" data-time=""></td>
-         <td><button id="btn12" data-res="" data-date="" data-time=""></td>
-         <td><button id="btn13" data-res="" data-date="" data-time=""></td>
-         <td><button id="btn14" data-res="" data-date="" data-time=""></td>
-         <td><button id="btn15" data-res="" data-date="" data-time=""></td>
-         <td><button id="btn16" data-res="" data-date="" data-time=""></td>
-         <td><button id="btn17" data-res="" data-date="" data-time=""></td>
-         <td><button id="btn18" data-res="" data-date="" data-time=""></td>   
+         <td><button id="btn21" data-res="" data-date="" data-time=""></td>
+         <td><button id="btn31" data-res="" data-date="" data-time=""></td>
+         <td><button id="btn41" data-res="" data-date="" data-time=""></td>
+         <td><button id="btn51" data-res="" data-date="" data-time=""></td>
+         <td><button id="btn61" data-res="" data-date="" data-time=""></td>
+         <td><button id="btn71" data-res="" data-date="" data-time=""></td>     
         </tr>
         <tr>
         　　　　<th>12時</th>
-         <td><button id="btn21" data-res="" data-date="" data-time=""></td>
+         <td><button id="btn02" data-res="" data-date="" data-time=""></td>
+         <td><button id="btn12" data-res="" data-date="" data-time=""></td>
          <td><button id="btn22" data-res="" data-date="" data-time=""></td>
-         <td><button id="btn23" data-res="" data-date="" data-time=""></td>
-         <td><button id="btn24" data-res="" data-date="" data-time=""></td>
-         <td><button id="btn25" data-res="" data-date="" data-time=""></td>
-         <td><button id="btn26" data-res="" data-date="" data-time=""></td>
-         <td><button id="btn27" data-res="" data-date="" data-time=""></td>
-         <td><button id="btn28" data-res="" data-date="" data-time=""></td>   
+         <td><button id="btn32" data-res="" data-date="" data-time=""></td>
+         <td><button id="btn42" data-res="" data-date="" data-time=""></td>
+         <td><button id="btn52" data-res="" data-date="" data-time=""></td>
+         <td><button id="btn62" data-res="" data-date="" data-time=""></td>
+         <td><button id="btn72" data-res="" data-date="" data-time=""></td>     
         </tr>
         <tr>
         　　　　<th>13時</th>
-         <td><button id="btn31" data-res="" data-date="" data-time=""></td>
-         <td><button id="btn32" data-res="" data-date="" data-time=""></td>
+         <td><button id="btn03" data-res="" data-date="" data-time=""></td>
+         <td><button id="btn13" data-res="" data-date="" data-time=""></td>
+         <td><button id="btn23" data-res="" data-date="" data-time=""></td>
          <td><button id="btn33" data-res="" data-date="" data-time=""></td>
-         <td><button id="btn34" data-res="" data-date="" data-time=""></td>
-         <td><button id="btn35" data-res="" data-date="" data-time=""></td>
-         <td><button id="btn36" data-res="" data-date="" data-time=""></td>
-         <td><button id="btn37" data-res="" data-date="" data-time=""></td>
-         <td><button id="btn38" data-res="" data-date="" data-time=""></td>   
+         <td><button id="btn43" data-res="" data-date="" data-time=""></td>
+         <td><button id="btn53" data-res="" data-date="" data-time=""></td>
+         <td><button id="btn63" data-res="" data-date="" data-time=""></td>
+         <td><button id="btn73" data-res="" data-date="" data-time=""></td>     
         </tr>
         <tr>
         　　　　<th>14時</th>
-         <td><button id="btn41" data-res="" data-date="" data-time=""></td>
-         <td><button id="btn42" data-res="" data-date="" data-time=""></td>
-         <td><button id="btn43" data-res="" data-date="" data-time=""></td>
+         <td><button id="btn04" data-res="" data-date="" data-time=""></td>
+         <td><button id="btn14" data-res="" data-date="" data-time=""></td>
+         <td><button id="btn24" data-res="" data-date="" data-time=""></td>
+         <td><button id="btn34" data-res="" data-date="" data-time=""></td>
          <td><button id="btn44" data-res="" data-date="" data-time=""></td>
-         <td><button id="btn45" data-res="" data-date="" data-time=""></td>
-         <td><button id="btn46" data-res="" data-date="" data-time=""></td>
-         <td><button id="btn47" data-res="" data-date="" data-time=""></td>
-         <td><button id="btn48" data-res="" data-date="" data-time=""></td>   
+         <td><button id="btn54" data-res="" data-date="" data-time=""></td>
+         <td><button id="btn64" data-res="" data-date="" data-time=""></td>
+         <td><button id="btn74" data-res="" data-date="" data-time=""></td>    
         </tr>
         <tr>
         　　　　<th>15時</th>
-         <td><button id="btn51" data-res="" data-date="" data-time=""></td>
-         <td><button id="btn52" data-res="" data-date="" data-time=""></td>
-         <td><button id="btn53" data-res="" data-date="" data-time=""></td>
-         <td><button id="btn54" data-res="" data-date="" data-time=""></td>
+         <td><button id="btn05" data-res="" data-date="" data-time=""></td>
+         <td><button id="btn15" data-res="" data-date="" data-time=""></td>
+         <td><button id="btn25" data-res="" data-date="" data-time=""></td>
+         <td><button id="btn35" data-res="" data-date="" data-time=""></td>
+         <td><button id="btn45" data-res="" data-date="" data-time=""></td>
          <td><button id="btn55" data-res="" data-date="" data-time=""></td>
-         <td><button id="btn56" data-res="" data-date="" data-time=""></td>
-         <td><button id="btn57" data-res="" data-date="" data-time=""></td>
-         <td><button id="btn58" data-res="" data-date="" data-time=""></td>   
+         <td><button id="btn65" data-res="" data-date="" data-time=""></td>
+         <td><button id="btn75" data-res="" data-date="" data-time=""></td>      
         </tr>
         <tr>
         　　　　<th>16時</th>
-         <td><button id="btn61" data-res="" data-date="" data-time=""></td>
-         <td><button id="btn62" data-res="" data-date="" data-time=""></td>
-         <td><button id="btn63" data-res="" data-date="" data-time=""></td>
-         <td><button id="btn64" data-res="" data-date="" data-time=""></td>
-         <td><button id="btn65" data-res="" data-date="" data-time=""></td>
+         <td><button id="btn06" data-res="" data-date="" data-time=""></td>
+         <td><button id="btn16" data-res="" data-date="" data-time=""></td>
+         <td><button id="btn26" data-res="" data-date="" data-time=""></td>
+         <td><button id="btn36" data-res="" data-date="" data-time=""></td>
+         <td><button id="btn46" data-res="" data-date="" data-time=""></td>
+         <td><button id="btn56" data-res="" data-date="" data-time=""></td>
          <td><button id="btn66" data-res="" data-date="" data-time=""></td>
-         <td><button id="btn67" data-res="" data-date="" data-time=""></td>
-         <td><button id="btn68" data-res="" data-date="" data-time=""></td>     
+         <td><button id="btn76" data-res="" data-date="" data-time=""></td>     
         </tr>
         <tr>
         　　　　<th>17時</th>
-         <td><button id="btn71" data-res="" data-date="" data-time=""></td>
-         <td><button id="btn72" data-res="" data-date="" data-time=""></td>
-         <td><button id="btn73" data-res="" data-date="" data-time=""></td>
-         <td><button id="btn74" data-res="" data-date="" data-time=""></td>
-         <td><button id="btn75" data-res="" data-date="" data-time=""></td>
-         <td><button id="btn76" data-res="" data-date="" data-time=""></td>
-         <td><button id="btn77" data-res="" data-date="" data-time=""></td>
-         <td><button id="btn78" data-res="" data-date="" data-time=""></td>   
+         <td><button id="btn07" data-res="" data-date="" data-time=""></td>
+         <td><button id="btn17" data-res="" data-date="" data-time=""></td>
+         <td><button id="btn27" data-res="" data-date="" data-time=""></td>
+         <td><button id="btn37" data-res="" data-date="" data-time=""></td>
+         <td><button id="btn47" data-res="" data-date="" data-time=""></td>
+         <td><button id="btn57" data-res="" data-date="" data-time=""></td>
+         <td><button id="btn67" data-res="" data-date="" data-time=""></td>
+         <td><button id="btn77" data-res="" data-date="" data-time=""></td>     
         </tr>
         <tr>
         　　　　<th>18時</th>
-         <td><button id="btn81" data-res="" data-date="" data-time=""></td>
-         <td><button id="btn82" data-res="" data-date="" data-time=""></td>
-         <td><button id="btn83" data-res="" data-date="" data-time=""></td>
-         <td><button id="btn84" data-res="" data-date="" data-time=""></td>
-         <td><button id="btn85" data-res="" data-date="" data-time=""></td>
-         <td><button id="btn86" data-res="" data-date="" data-time=""></td>
-         <td><button id="btn87" data-res="" data-date="" data-time=""></td> 
-         <td><button id="btn88" data-res="" data-date="" data-time=""></td>
+         <td><button id="btn08" data-res="" data-date="" data-time=""></td>
+         <td><button id="btn18" data-res="" data-date="" data-time=""></td>
+         <td><button id="btn28" data-res="" data-date="" data-time=""></td>
+         <td><button id="btn38" data-res="" data-date="" data-time=""></td>
+         <td><button id="btn48" data-res="" data-date="" data-time=""></td>
+         <td><button id="btn58" data-res="" data-date="" data-time=""></td>
+         <td><button id="btn68" data-res="" data-date="" data-time=""></td>
+         <td><button id="btn78" data-res="" data-date="" data-time=""></td> 
         </tr>
         <tr>
         　　　　<th>19時</th>
-         <td><button id="btn91" data-res="" data-date="" data-time=""></td>
-         <td><button id="btn92" data-res="" data-date="" data-time=""></td>
-         <td><button id="btn93" data-res="" data-date="" data-time=""></td>
-         <td><button id="btn94" data-res="" data-date="" data-time=""></td>
-         <td><button id="btn95" data-res="" data-date="" data-time=""></td>
-         <td><button id="btn96" data-res="" data-date="" data-time=""></td>
-         <td><button id="btn97" data-res="" data-date="" data-time=""></td> 
-         <td><button id="btn98" data-res="" data-date="" data-time=""></td>
+         <td><button id="btn09" data-res="" data-date="" data-time=""></td>
+         <td><button id="btn19" data-res="" data-date="" data-time=""></td>
+         <td><button id="btn29" data-res="" data-date="" data-time=""></td>
+         <td><button id="btn39" data-res="" data-date="" data-time=""></td>
+         <td><button id="btn49" data-res="" data-date="" data-time=""></td>
+         <td><button id="btn59" data-res="" data-date="" data-time=""></td>
+         <td><button id="btn69" data-res="" data-date="" data-time=""></td>
+         <td><button id="btn79" data-res="" data-date="" data-time=""></td> 
         </tr>
         
        
